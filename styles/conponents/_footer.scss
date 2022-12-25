@@ -1,0 +1,155 @@
+.footer{
+    width: 100%;
+    height: auto;
+
+    //CONTACT
+    &__contact{
+        width: 100%;
+        max-width: none;
+        min-width: 768px;
+        padding: 40px 0;
+
+        background-color: var(--p);
+        
+        display: flex;
+        justify-content: space-between;
+
+        &--title{
+            width: 613px !important;
+            margin: auto 0;
+            
+            color: var(--w);
+        }
+
+        &--content{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .sec-title__para{
+                width: 390px;
+                margin: 0;
+
+                color: var(--lg);
+            }
+            .button{
+                background-color: var(--w);
+                color: var(--50);
+            }
+        }
+    }
+
+    //FOLLOW
+    &__follow{
+        margin: 80px 0;
+        &--slogan{
+            .logo{
+                width: 126px;
+                height: 54px;
+            }
+            .sec-title__content{
+                width: 481px;
+            }
+        }
+        &--email{
+            p{
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 160%;
+                margin: 10px 0;
+                
+                color: var(--50);
+            }
+            .arr{
+                position: relative;
+                input{
+                    width: 440px;
+                    padding-bottom: 15px;
+                    padding-top: 15px;
+    
+                    border: none;
+                    border-bottom: 2px solid var(--70);
+                }
+
+                img{
+                    position: absolute;
+                    right: 0;
+                    width: 23.5px;
+                    height: 9.01px;
+
+                    &:hover{
+                        background-color: var(lg);
+                    }
+                }
+            }
+        }
+        &--icons{
+            width: 220px;
+            margin: 0 0 0 auto;
+
+            p{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                margin-bottom: 10px;
+
+                color: var(--50);
+            }
+            span{
+                display: flex;
+                gap: 25px;
+                img{
+                    width: 36px;
+                    height: 36px;
+                    background-color: var(--lg);
+                    border-radius: 50%;
+                    padding: 4px;
+                }
+            }
+        }
+    }
+
+
+    @media screen and (max-width: 1152px) {
+        &__contact{
+            &--title{
+                width: auto !important;
+            }
+            &--content{
+                width: 100%;
+                margin: 10px auto 0;
+
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+            }
+        }
+        &__follow{
+            gap: 20px;
+
+            .flex-box{
+                gap: 10px;
+            }
+
+            &--slogan{
+                width: 100%;
+                margin: 20px 0 0;
+                text-align: center;
+
+                .sec-title__content{
+                    width: 100%;
+                }
+            }
+            &--email{
+                align-self: center;
+            }
+            &--icons{
+                margin: 50px auto 0;
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

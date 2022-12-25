@@ -1,0 +1,125 @@
+.footer {
+  width: 100%;
+  height: auto;
+}
+.footer__contact {
+  width: 100%;
+  max-width: none;
+  min-width: 768px;
+  padding: 40px 0;
+  background-color: var(--p);
+  display: flex;
+  justify-content: space-between;
+}
+.footer__contact--title {
+  width: 613px !important;
+  margin: auto 0;
+  color: var(--w);
+}
+.footer__contact--content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer__contact--content .sec-title__para {
+  width: 390px;
+  margin: 0;
+  color: var(--lg);
+}
+.footer__contact--content .button {
+  background-color: var(--w);
+  color: var(--50);
+}
+.footer__follow {
+  margin: 80px 0;
+}
+.footer__follow--slogan .logo {
+  width: 126px;
+  height: 54px;
+}
+.footer__follow--slogan .sec-title__content {
+  width: 481px;
+}
+.footer__follow--email p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  margin: 10px 0;
+  color: var(--50);
+}
+.footer__follow--email .arr {
+  position: relative;
+}
+.footer__follow--email .arr input {
+  width: 440px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border: none;
+  border-bottom: 2px solid var(--70);
+}
+.footer__follow--email .arr img {
+  position: absolute;
+  right: 0;
+  width: 23.5px;
+  height: 9.01px;
+}
+.footer__follow--email .arr img:hover {
+  background-color: var(lg);
+}
+.footer__follow--icons {
+  width: 220px;
+  margin: 0 0 0 auto;
+}
+.footer__follow--icons p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 10px;
+  color: var(--50);
+}
+.footer__follow--icons span {
+  display: flex;
+  gap: 25px;
+}
+.footer__follow--icons span img {
+  width: 36px;
+  height: 36px;
+  background-color: var(--lg);
+  border-radius: 50%;
+  padding: 4px;
+}
+@media screen and (max-width: 1152px) {
+  .footer__contact--title {
+    width: auto !important;
+  }
+  .footer__contact--content {
+    width: 100%;
+    margin: 10px auto 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer__follow {
+    gap: 20px;
+  }
+  .footer__follow .flex-box {
+    gap: 10px;
+  }
+  .footer__follow--slogan {
+    width: 100%;
+    margin: 20px 0 0;
+    text-align: center;
+  }
+  .footer__follow--slogan .sec-title__content {
+    width: 100%;
+  }
+  .footer__follow--email {
+    align-self: center;
+  }
+  .footer__follow--icons {
+    margin: 50px auto 0;
+  }
+  .footer__follow--icons p {
+    text-align: center;
+  }
+}

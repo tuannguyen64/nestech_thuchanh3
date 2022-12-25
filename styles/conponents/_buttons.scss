@@ -1,0 +1,15 @@
+.button{
+    padding: 14px 32px;
+    text-align: center;
+
+    border: 1px solid var(--30);
+
+    cursor: pointer;
+
+    color: var(--w);
+    background: var(--p);
+
+    &:hover{
+        opacity: 0.6;
+    }
+}
