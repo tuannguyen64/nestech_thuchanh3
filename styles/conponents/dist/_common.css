@@ -26,12 +26,13 @@ body {
   position: relative;
   overflow: hidden;
 }
-.container .inner {
+
+.inner {
   margin: 0 120px;
   width: auto;
 }
 @media screen and (max-width: 1152px) {
-  .container .inner {
+  .inner {
     margin: 0 60px;
   }
 }

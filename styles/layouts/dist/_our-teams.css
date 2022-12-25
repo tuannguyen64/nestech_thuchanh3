@@ -1,0 +1,107 @@
+.our-teams {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  width: 100%;
+  height: auto;
+  padding: 60px 0 120px;
+}
+.our-teams__main--heading {
+  width: 582px;
+}
+.our-teams__main--pic {
+  margin-top: 50px;
+  width: 100%;
+}
+.our-teams__designer--content {
+  margin: 70px auto 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 24px;
+}
+.our-teams__designer--content .designer {
+  width: 282px;
+  height: 400px;
+  position: relative;
+  display: block;
+  background-color: var(--p);
+}
+.our-teams__designer--content .designer img {
+  position: absolute;
+  bottom: 0;
+}
+.our-teams__designer--content .designer div {
+  width: 258px;
+  height: 96px;
+  display: block;
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  padding: 18px 16px;
+  background-color: var(--w);
+}
+.our-teams__designer--content .designer div b {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: var(--50);
+}
+.our-teams__designer--content .designer div p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--10);
+}
+.our-teams__service--content {
+  margin: 40px auto 0;
+  padding: 0 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+}
+.our-teams__service--content .item {
+  width: 100%;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: var(--w);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+}
+.our-teams__service--content .item img {
+  width: 63px;
+  height: 63px;
+}
+.our-teams__service--content .item b {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  color: var(--50);
+}
+.our-teams__service--content .item p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: var(--10);
+}
+.our-teams__service--content .item:hover {
+  border: none;
+  background-color: var(--p);
+}
+.our-teams__service--content .item:hover b, .our-teams__service--content .item:hover p {
+  color: var(--w);
+}
+@media screen and (max-width: 1152px) {
+  .our-teams__designer--content {
+    margin-top: 40px;
+  }
+  .our-teams__service--content {
+    padding: 0 20px;
+  }
+}

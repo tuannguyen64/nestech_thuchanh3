@@ -1,0 +1,24 @@
+.heading{
+    width: 518px;
+    margin: 0 auto;
+    
+    color: var(--b);
+    &__title{
+        width: 100%;
+        text-align: center;
+
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 140%;
+
+    }
+    &__intro{
+        text-align: center;
+        margin: 36px auto 0;
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 160%;
+        
+    }
+}

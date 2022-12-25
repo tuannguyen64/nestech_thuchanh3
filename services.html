@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="styles/dist/styles.css">
+    <title>Services</title>
+    <link rel="stylesheet" href="./styles/dist/styles.css">
 </head>
 <body>
-
+    
     <!--HEADER-->
     <header class="header container">
         <div class="header__navbar">
@@ -21,13 +21,13 @@
             </div>
             <div class="nav">
                 <ul class="nav__link">
-                    <li class="main">
+                    <li>
                         <a href="./home.html">Home</a>
                     </li>
                     <li>
                         <a href="./about-us.html">About Us</a>
                     </li>
-                    <li>
+                    <li class="main">
                         <a href="./services.html">Services</a>
                     </li>
                     <li>
@@ -44,106 +44,63 @@
         </div>
     </header>
 
-    <!--HOME-->
-    <main class="home container">
+    <!--SERVICES-->
+    <main class="services container">
+
         <!--MAIN-->
-        <section class="home__main inner">
-            <div class="home__main--title">
-                <h1>Design your interor with high quality.</h1>
-                <p>
-                    2022 <br>
-                    ALL RIGHT RESERVED
+        <section class="services__main inner">
+            <div class="services__main--heading heading">
+                <h1 class="heading__title">Services</h1>
+                <p class="heading__intro">
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
                 </p>
-                <span class="line-home line"></span>
             </div>
-            <img src="./assets/images/home_main.png" alt="" class="home__main--pic">
-            <div class="home__main--box box">
-                <div>
-                    <b>350+</b>
-                    <p>Project Completed</p>
-                </div>
-                <div>
-                    <b>23+</b>
-                    <p>Professional Teams</p>
-                </div>
-                <div>
-                    <b>15+</b>
-                    <p>Years Experience</p>
-                </div>
-            </div>
+            <img src="./assets/images/services_main.png" alt="" class="about-us__main--pic">
         </section>
 
-        <!--ABOUT-->
-        <section class="home__about inner">
-            <div class="home__about--title sec-title">
-                <div class="sec-title__name">
-                    <span class="sec-title__name--content">ABOUT</span>
-                    <span class="sec-title__name--line line"></span>
-                </div>
-                <h3 class="sec-title__content">
-                    “We're one of the best furniture agency.
-                    Prioritizing customers and making purchases easy are the hallmarks of our agency.”
-                </h3>
+        <!--ACHIEVEMENT-->
+        <section class="services__achievement inner">
+            <div class="sec-title__name">
+                <span class="sec-title__name--content">SERVICE</span>
+                <span class="sec-title__name--line line"></span>
             </div>
-
-            <div class="home__about--pic flex-box">
-                <div class="home__about--box">
-                    <img src="./assets/images/ceo-ava.png" alt="" class="ceo__ava">
-                    <div class="ceo__name">
-                        <b>Arga Danaan</b>
-                        <p>CEO of Dananz</p>
-                    </div>
-                </div>
-                <img src="./assets/images/home_about.png" alt="" class="about__pic">
-                <div class="about__content sec-title__para">
+            <div class="services__achievement--item">
+                <img src="./assets/images/services_achievement_1.png" alt="">
+                <div>
+                    <b>Interior design</b>
                     <p>
-                        Online learning with us does not interfere with your daily life.
-                        because learning can be done anytime and anywhere.
-                    </p>
-                    <a href="">
-                        <button class="button">Learn More</button>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!--SERVICE-->
-        <section class="home__service inner">
-            <div class="home__service--box">
-                <div class="sec-title">
-                    <div class="sec-title__name">
-                        <span class="sec-title__name--content">SERVICE</span>
-                        <span class="sec-title__name--line line"></span>
-                    </div>
-                    <h3 class="sec-title__content">
-                        attractive furniture with the best quality.
-                    </h3>
-                    <p class="sec-title__para">
                         Customize your interior design into a dream place with the best designers and quality furniture.
                         We try our best to fulfill your expectations.
                     </p>
-                    <ol class="sec-title__ol">
-                        <li>
-                            <span><span>01</span>Interior Design</span>
-                            <img src="./assets/images/arrow-right.svg" alt="">
-                        </li>
-                        <li>
-                            <span><span>02</span>Consultant</span>
-                            <img src="./assets/images/arrow-right.svg" alt="">
-                        </li>
-                        <li>
-                            <span><span>03</span>Construction Consultant</span>
-                            <img src="./assets/images/arrow-right.svg" alt="">
-                        </li>
-                    </ol>
                 </div>
             </div>
 
-            <img src="./assets/images/home_service.png" alt="" class="home__service--pic">
+            <div class="services__achievement--item">
+                <img src="./assets/images/services_achievement_2.png" alt="">
+                <div>
+                    <b>Consultant</b>
+                    <p>
+                        Customize your interior design into a dream place with the best designers and quality furniture.
+                        We try our best to fulfill your expectations.
+                    </p>
+                </div>
+            </div>
+
+            <div class="services__achievement--item">
+                <img src="./assets/images/services_achievement_3.png" alt="">
+                <div>
+                    <b>construction consultant</b>
+                    <p>
+                        Customize your interior design into a dream place with the best designers and quality furniture.
+                        We try our best to fulfill your expectations.
+                    </p>
+                </div>
+            </div>
         </section>
+
         
         <!--PRODUCT-->
-        <section class="home__product inner">
+        <section class="services__product inner">
             <div class="sec-title">
                 <div class="sec-title__name">
                     <span class="sec-title__name--content">PRODUCT</span>
@@ -187,38 +144,6 @@
             </div>
         </section>
 
-        <!--MATERIAL-->
-        <section class="home__material inner">
-            <div class="flex-box">
-                <div class="sec-title">
-                    <div class="sec-title__name">
-                        <span class="sec-title__name--content">MATERIAL</span>
-                          <span class="sec-title__name--line line"></span>
-                    </div>
-                    <div class="home__material--content">
-                        <h3 class="sec-title__content">
-                            choice of materials for quality furniture.
-                        </h3>
-                        <p class="sec-title__para">
-                            You can custom the material as desired.
-                            And our furniture uses the best materials and selected quality materials.
-                        </p>
-                        <a href="">
-                            <button class="button">See Materials</button>
-                        </a>
-                    </div>
-                </div>
-                <div class="home__material--pic">
-                    <div>
-                        <img src="./assets/images/home_material_1.png" alt="" class="pic-1">
-                    </div>
-                    <div>
-                        <img src="./assets/images/home_material_2.png" alt="" class="pic-2">
-                        <img src="./assets/images/home_material_3.png" alt="" class="pic-3">
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
 
     <!--FOOTER-->

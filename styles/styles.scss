@@ -5,8 +5,15 @@
 @import "./conponents/buttons";
 @import "./conponents/sec-title";
 @import "./conponents/box";
+@import "./conponents/heading";
+
+// HEADER - FOOTER
 @import "./conponents/header";
 @import "./conponents/footer";
 
 // IMPORT LAYOUTS
 @import "./layouts/home";
+@import "./layouts/about-us";
+@import "./layouts/services";
+@import "./layouts/our-teams";
+@import "./layouts/contact-us";

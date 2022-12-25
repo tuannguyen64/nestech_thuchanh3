@@ -29,12 +29,13 @@ body{
     display: block;
     position: relative;
     overflow: hidden;
-    .inner{
-        margin: 0 120px;
-        width: auto;
-        @media screen and (max-width: 1152px) {
-            margin: 0 60px;
-        }
+}
+
+.inner{
+    margin: 0 120px;
+    width: auto;
+    @media screen and (max-width: 1152px) {
+        margin: 0 60px;
     }
 }
 

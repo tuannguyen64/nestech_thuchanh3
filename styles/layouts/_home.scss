@@ -13,8 +13,6 @@
         flex-direction: column;
 
         &--title{
-            margin: 0 120px;
-    
             display: flex;
             position: relative;
             justify-content: space-between;
@@ -48,13 +46,13 @@
             }
         }
         &--pic{
-            margin: 46px 120px 0;
-            width: calc(100% - 240px);
+            margin: 46px 0 0;
+            width: 100%;
         }
         &--box{
             position: absolute;
-            bottom: 300px;
-            right: 262px;
+            bottom: 190px;
+            right: 142px;
         }
     }
 
@@ -65,7 +63,7 @@
             width: 276px;
             height: 90px;
             position: absolute;
-            bottom: 50%;
+            bottom: 55%;
             right: 15%;
 
             display: flex;
@@ -98,10 +96,9 @@
             }
         }
         &--title{
-            margin: 0 120px 60px;
+            margin: 0 0 60px;
         }
         &--pic{
-            margin: 0px 120px;
             
             .about{
                 &__pic{
@@ -138,7 +135,6 @@
         position: relative;
         height: 840px;
         &--box{
-            margin: 0 120px;
             padding-bottom: 40px;
             padding-right: 50px;
             width: 883px;
@@ -152,11 +148,11 @@
 
         &--pic{
             width: 1076px;
-            max-width: calc(100% - 240px);
+            max-width: 100%;
             aspect-ratio: 1076/525;
             
             position: absolute;
-            right: 120px;
+            right: 0;
             bottom: 0;
             z-index: -1;
         }
@@ -165,14 +161,11 @@
     //PRODUCT
     &__product{
         position: relative;
-        padding: 0 120px;
-        
     }
 
     //MATERIAL
     &__material{
         position: relative;
-        padding: 0 120px;
         &--content{
             .button{   
                 margin-top: 23px;
@@ -268,8 +261,8 @@
                 }
             }
             &--pic{
-                margin: 46px 60px 0;
-                width: calc(100% - 120px);
+                margin: 46px 0 0;
+                width: 100%
             }
             &--box{
                 bottom: 150px;
@@ -280,10 +273,9 @@
         //ABOUT
         &__about{
             &--title{
-                margin: 0 60px 60px;
+                margin: 0 0 60px;
             }
             &--pic{
-                margin: 0px 60px;
                 .about{
                     &__pic{
                         width: 100%;
@@ -302,37 +294,22 @@
         &__service{
             height: auto;
             &--box{
-                margin: 0 60px;
-                width: calc(100% - 120px);
+                width: 100%;
             }
             &--pic{
-                margin: 0 60px;
                 position: relative;
 
-                max-width: calc(100% - 120px);
+                max-width: 100%;
                 right: 0;
             }
         }
 
         //PRODUCT
         &__product{
-            padding: 0 60px;
         }
 
         //MATERIAL
         &__material{
-            padding: 0 60px;
-            &--pic{
-                img{
-                    &:first-child{
-                    }
-                    &:nth-child(2){
-                    }
-                    &:last-child{
-                        
-                    }   
-                }  
-            }
         }
     }
 }

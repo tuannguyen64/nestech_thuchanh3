@@ -12,7 +12,6 @@
   flex-direction: column;
 }
 .home__main--title {
-  margin: 0 120px;
   display: flex;
   position: relative;
   justify-content: space-between;
@@ -42,13 +41,13 @@
   right: 0;
 }
 .home__main--pic {
-  margin: 46px 120px 0;
-  width: calc(100% - 240px);
+  margin: 46px 0 0;
+  width: 100%;
 }
 .home__main--box {
   position: absolute;
-  bottom: 300px;
-  right: 262px;
+  bottom: 190px;
+  right: 142px;
 }
 .home__about {
   position: relative;
@@ -57,7 +56,7 @@
   width: 276px;
   height: 90px;
   position: absolute;
-  bottom: 50%;
+  bottom: 55%;
   right: 15%;
   display: flex;
   align-items: center;
@@ -81,10 +80,7 @@
   color: var(--10);
 }
 .home__about--title {
-  margin: 0 120px 60px;
-}
-.home__about--pic {
-  margin: 0px 120px;
+  margin: 0 0 60px;
 }
 .home__about--pic .about__pic {
   width: 883px;
@@ -110,7 +106,6 @@
   height: 840px;
 }
 .home__service--box {
-  margin: 0 120px;
   padding-bottom: 40px;
   padding-right: 50px;
   width: 883px;
@@ -122,20 +117,18 @@
 }
 .home__service--pic {
   width: 1076px;
-  max-width: calc(100% - 240px);
+  max-width: 100%;
   aspect-ratio: 1076/525;
   position: absolute;
-  right: 120px;
+  right: 0;
   bottom: 0;
   z-index: -1;
 }
 .home__product {
   position: relative;
-  padding: 0 120px;
 }
 .home__material {
   position: relative;
-  padding: 0 120px;
 }
 .home__material--content .button {
   margin-top: 23px;
@@ -209,18 +202,15 @@
     display: none;
   }
   .home__main--pic {
-    margin: 46px 60px 0;
-    width: calc(100% - 120px);
+    margin: 46px 0 0;
+    width: 100%;
   }
   .home__main--box {
     bottom: 150px;
     right: 6vw;
   }
   .home__about--title {
-    margin: 0 60px 60px;
-  }
-  .home__about--pic {
-    margin: 0px 60px;
+    margin: 0 0 60px;
   }
   .home__about--pic .about__pic {
     width: 100%;
@@ -235,19 +225,11 @@
     height: auto;
   }
   .home__service--box {
-    margin: 0 60px;
-    width: calc(100% - 120px);
+    width: 100%;
   }
   .home__service--pic {
-    margin: 0 60px;
     position: relative;
-    max-width: calc(100% - 120px);
+    max-width: 100%;
     right: 0;
-  }
-  .home__product {
-    padding: 0 60px;
-  }
-  .home__material {
-    padding: 0 60px;
   }
 }
