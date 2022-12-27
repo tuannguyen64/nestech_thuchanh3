@@ -62,3 +62,17 @@ body {
     width: auto;
   }
 }
+
+b {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: var(--50);
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: var(--10);
+}

@@ -68,15 +68,9 @@
   height: 56px;
 }
 .home__about--box .ceo__name b {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 140%;
   color: var(--b);
 }
 .home__about--box .ceo__name p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 160%;
   color: var(--10);
 }
 .home__about--title {
@@ -91,9 +85,6 @@
 }
 .home__about--pic .about__content p {
   padding: 40px 0;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 160%;
   color: var(--10);
 }
 @media screen and (max-width: 1350px) {

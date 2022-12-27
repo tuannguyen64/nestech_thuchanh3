@@ -337,11 +337,28 @@ body {
   }
 }
 
+b {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: var(--50);
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: var(--10);
+}
+
 .button {
   padding: 14px 32px;
   text-align: center;
   border: 1px solid var(--30);
   cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
   color: var(--w);
   background: var(--p);
 }
@@ -379,10 +396,6 @@ body {
 .sec-title__para {
   width: 471px;
   margin-top: 24px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 160%;
-  color: var(--10);
 }
 .sec-title__ol {
   display: inline;
@@ -410,9 +423,6 @@ body {
 .sec-title__ol p {
   width: 469px;
   margin: 24px 0 8px 10%;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 160%;
   color: var(--50);
 }
 
@@ -435,11 +445,13 @@ body {
   font-weight: 400;
   font-size: 3.8vw;
   line-height: 160%;
+  color: var(--w);
 }
 .box div p {
   font-weight: 400;
   font-size: 1.1vw;
   line-height: 160%;
+  color: var(--w);
 }
 @media screen and (min-width: 1440px) {
   .box div b {
@@ -476,9 +488,6 @@ body {
 .heading__intro {
   text-align: center;
   margin: 36px auto 0;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 160%;
 }
 
 .header {
@@ -582,9 +591,6 @@ body {
   width: 481px;
 }
 .footer__follow--email p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 160%;
   margin: 10px 0;
   color: var(--50);
 }
@@ -735,15 +741,9 @@ body {
   height: 56px;
 }
 .home__about--box .ceo__name b {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 140%;
   color: var(--b);
 }
 .home__about--box .ceo__name p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 160%;
   color: var(--10);
 }
 .home__about--title {
@@ -758,9 +758,6 @@ body {
 }
 .home__about--pic .about__content p {
   padding: 40px 0;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 160%;
   color: var(--10);
 }
 @media screen and (max-width: 1350px) {
@@ -954,16 +951,10 @@ body {
   height: 63px;
 }
 .about-us__service--content .item b {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 140%;
   text-align: center;
   color: var(--50);
 }
 .about-us__service--content .item p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 160%;
   text-align: center;
   color: var(--10);
 }
@@ -1029,17 +1020,11 @@ body {
   width: 334px;
 }
 .services__achievement--item div b {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 140%;
   color: var(--50);
 }
 .services__achievement--item div p {
   display: block;
   margin-top: 20px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 160%;
   color: var(--10);
 }
 .services__product {
@@ -1133,19 +1118,8 @@ body {
   width: 63px;
   height: 63px;
 }
-.our-teams__service--content .item b {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 140%;
+.our-teams__service--content .item b, .our-teams__service--content .item p {
   text-align: center;
-  color: var(--50);
-}
-.our-teams__service--content .item p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 160%;
-  text-align: center;
-  color: var(--10);
 }
 .our-teams__service--content .item:hover {
   border: none;
@@ -1198,16 +1172,28 @@ body {
   color: var(--50);
 }
 .contact-us__main--info .input div {
+  display: flex;
   margin-top: 10px;
-  padding: 18px 32px;
-  height: auto;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 160%;
-  color: var(--10);
   border: 1px solid var(--10);
 }
+.contact-us__main--info .input div select {
+  padding-left: 32px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--50);
+  border: none;
+}
 .contact-us__main--info .input div input {
+  padding: 18px 32px;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.contact-us__main--info .input div textarea {
+  padding: 18px 32px;
+  width: 100%;
+  height: 100%;
   border: none;
 }
 @media screen and (max-width: 965px) {
@@ -1254,19 +1240,9 @@ body {
 .contact-us__location--content div div {
   gap: 0;
 }
-.contact-us__location--content b {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 140%;
-  color: var(--50);
-}
 .contact-us__location--content p {
   display: block;
   margin-top: 30px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 160%;
-  color: var(--10);
 }
 @media screen and (max-width: 1152px) {
   .contact-us__location--title {

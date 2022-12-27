@@ -28,10 +28,6 @@
 .sec-title__para {
   width: 471px;
   margin-top: 24px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 160%;
-  color: var(--10);
 }
 .sec-title__ol {
   display: inline;
@@ -59,8 +55,5 @@
 .sec-title__ol p {
   width: 469px;
   margin: 24px 0 8px 10%;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 160%;
   color: var(--50);
 }

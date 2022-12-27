@@ -78,18 +78,9 @@
                 }
                 &__name{
                     b{
-                        font-weight: 600;
-                        font-size: 18px;
-                        line-height: 140%;
-                        
                         color: var(--b);
                     }
                     p{
-                        font-weight: 400;
-                        font-size: 18px;
-                        line-height: 160%;
-                        
-                        
                         color: var(--10);
                     }
                 }
@@ -108,11 +99,7 @@
                     flex-shrink: 0;
                     width: 200px;
                     p{
-                        padding: 40px 0;
-                        font-weight: 400;
-                        font-size: 18px;
-                        line-height: 160%;
-                        
+                        padding: 40px 0;                        
                         color: var(--10);
                     }
                 }

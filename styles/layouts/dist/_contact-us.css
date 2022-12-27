@@ -33,16 +33,28 @@
   color: var(--50);
 }
 .contact-us__main--info .input div {
+  display: flex;
   margin-top: 10px;
-  padding: 18px 32px;
-  height: auto;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 160%;
-  color: var(--10);
   border: 1px solid var(--10);
 }
+.contact-us__main--info .input div select {
+  padding-left: 32px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--50);
+  border: none;
+}
 .contact-us__main--info .input div input {
+  padding: 18px 32px;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.contact-us__main--info .input div textarea {
+  padding: 18px 32px;
+  width: 100%;
+  height: 100%;
   border: none;
 }
 @media screen and (max-width: 965px) {
@@ -89,19 +101,9 @@
 .contact-us__location--content div div {
   gap: 0;
 }
-.contact-us__location--content b {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 140%;
-  color: var(--50);
-}
 .contact-us__location--content p {
   display: block;
   margin-top: 30px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 160%;
-  color: var(--10);
 }
 @media screen and (max-width: 1152px) {
   .contact-us__location--title {

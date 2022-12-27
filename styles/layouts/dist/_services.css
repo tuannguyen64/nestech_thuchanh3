@@ -33,17 +33,11 @@
   width: 334px;
 }
 .services__achievement--item div b {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 140%;
   color: var(--50);
 }
 .services__achievement--item div p {
   display: block;
   margin-top: 20px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 160%;
   color: var(--10);
 }
 .services__product {
